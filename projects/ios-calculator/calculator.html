@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0 , maximum-scale=1.0"> <!--Mobile Compatibility-->
+    <title>Calculator!</title>
+    <link rel="stylesheet" href="/projects/ios-calculator/calculator.css">
+</head>
+
+<body>
+    <section>
+        <div id="descriptionBox">
+            <h3>This is a simple calculator app that replicates iOS's style.</h3>
+            <h3>The code for this project is available at <a href="https://github.com/mirceavalentin/marinescumv" class="link" target="_blank">my GitHub page</a>.</h3>
+        </div>
+    </section>
+
+    <section>
+        <div id="calculator">
+            <!--Calculator screen, can ony read the input-->
+            <input id="calculatorScreen" readonly> 
+            <div id="calculatorButtons">
+                <button onclick="appendToDisplay('+')" class="operatorButton">+</button>
+                <button onclick="appendToDisplay('7')">7</button>
+                <button onclick="appendToDisplay('8')">8</button>
+                <button onclick="appendToDisplay('9')">9</button>
+                <button onclick="appendToDisplay('-')" class="operatorButton">-</button>
+                <button onclick="appendToDisplay('4')">4</button>
+                <button onclick="appendToDisplay('5')">5</button>
+                <button onclick="appendToDisplay('6')">6</button>
+                <button onclick="appendToDisplay('*')" class="operatorButton">*</button>
+                <button onclick="appendToDisplay('1')">1</button>
+                <button onclick="appendToDisplay('2')">2</button>
+                <button onclick="appendToDisplay('3')">3</button>
+                <button onclick="appendToDisplay('/')" class="operatorButton">/</button>
+                <button onclick="appendToDisplay('0')">0</button>
+                <button onclick="appendToDisplay('.')">.</button>
+                <button onclick="calculate()">=</button>
+                <button onclick="clearScreen()" class="operatorButton">C</button> 
+            </div>
+        </div>
+    </section>
+    <script src="/projects/ios-calculator/calculator.js"></script>
+
+    <!--Math library in order to avoid using eval()-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.4/math.min.js"></script>
+
+</body>
+</html>
