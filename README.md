@@ -78,12 +78,13 @@ This portfolio is designed to be:
 
 Start the Vite dev server with hot-reload:
    ```bash
-npm run dev
-```
+   npm run dev
+   ```
 Open your browser at http://localhost:5173 to view the site. Any saved changes will reload automatically.
 
+---
 
-##🌐 Custom Domain
+## 🌐 Custom Domain
 
     Ensure public/CNAME contains your domain:
 
@@ -91,16 +92,17 @@ www.yourdomain.com
 
 Update DNS records at your registrar:
 
-A @   → 185.199.108.153
-A @   → 185.199.109.153
-A @   → 185.199.110.153
-A @   → 185.199.111.153
-CNAME www → username.github.io.
+- A @   → 185.199.108.153
+- A @   → 185.199.109.153
+- A @   → 185.199.110.153
+- A @   → 185.199.111.153
+- CNAME www → username.github.io.
 
 Deploy (npm run deploy) and confirm under GitHub → Settings → Pages.
 
+---
 
-##📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
 Feel free to browse, fork, and learn!
