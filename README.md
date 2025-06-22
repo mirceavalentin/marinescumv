@@ -1,9 +1,8 @@
 # 🌐 My Portfolio
 
-![Portfolio screenshot](./public/images/portfolio-screenshot.png)
+![Portfolio screenshot](./src/assets/portfolio-screenshot.png)
 
-**Live Demo:** [https://username.github.io/portfolio-v2/](https://username.github.io/portfolio-v2/)  
-**Custom Domain:** [www.yourdomain.com](https://www.yourdomain.com)
+**Custom Domain:** [marinescumv.ro](marinescumv.ro)
 
 A modern, responsive personal portfolio built with React, Vite, and Tailwind CSS—showcasing my projects and skills, deployed via GitHub Pages.
 
@@ -21,8 +20,7 @@ A modern, responsive personal portfolio built with React, Vite, and Tailwind CSS
 5. [Build & Deploy](#build--deploy)  
 6. [Project Structure](#project-structure)  
 7. [Custom Domain](#custom-domain)  
-8. [Author](#author)  
-9. [License](#license)  
+8. [License](#license)  
 
 ---
 
@@ -73,3 +71,37 @@ This portfolio is designed to be:
    ```bash
    git clone https://github.com/username/portfolio-v2.git
    cd portfolio-v2
+2. **Install dependencies**
+   ```bash
+   npm install
+3. **Running Locally**
+
+Start the Vite dev server with hot-reload:
+   ```bash
+npm run dev
+```
+Open your browser at http://localhost:5173 to view the site. Any saved changes will reload automatically.
+
+
+##🌐 Custom Domain
+
+    Ensure public/CNAME contains your domain:
+
+www.yourdomain.com
+
+Update DNS records at your registrar:
+
+A @   → 185.199.108.153
+A @   → 185.199.109.153
+A @   → 185.199.110.153
+A @   → 185.199.111.153
+CNAME www → username.github.io.
+
+Deploy (npm run deploy) and confirm under GitHub → Settings → Pages.
+
+
+##📄 License
+
+This project is licensed under the MIT License.
+Feel free to browse, fork, and learn!
+
