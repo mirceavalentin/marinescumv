@@ -2,7 +2,7 @@
 
 ![Portfolio screenshot](./src/assets/portfolio-screenshot.png)
 
-**Custom Domain:** [marinescumv.ro](marinescumv.ro)
+**Custom Domain:** [marinescumv.ro](marinescumv)
 
 A modern, responsive personal portfolio built with React, Vite, and Tailwind CSS—showcasing my projects and skills, deployed via GitHub Pages.
 
@@ -10,7 +10,7 @@ A modern, responsive personal portfolio built with React, Vite, and Tailwind CSS
 
 ## 🗂️ Table of Contents
 
-1. [Overview](#overview)  
+1. [Overview](##overview)  
 2. [Features](#features)  
 3. [Tech Stack](#tech-stack)  
 4. [Getting Started](#getting-started)  
