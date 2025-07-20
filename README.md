@@ -69,7 +69,7 @@ This portfolio is designed to be:
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/username/portfolio-v2.git
+   git clone https://github.com/mirceavalentin/marinescumv.git
    cd portfolio-v2
 2. **Install dependencies**
    ```bash
