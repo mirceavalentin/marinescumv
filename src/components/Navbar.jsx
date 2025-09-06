@@ -32,7 +32,7 @@ export default function Navbar() {
         <div className="hidden md:flex items-center space-x-6">
           <a href="https://github.com/yourname"    className="hover:underline">GitHub</a>
           <a href="https://linkedin.com/in/yourname" className="hover:underline">LinkedIn</a>
-          <a href="mailto:you@example.com"          className="hover:underline">Email</a>
+          <a href="mrceamv@proton.me"          className="hover:underline">Email</a>
         </div>
 
         {/* Hamburger on mobile */}
