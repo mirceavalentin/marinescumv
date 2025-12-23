@@ -25,19 +25,16 @@ export default function Hero() {
           My name is <b>Marinescu Mircea-Valentin</b>.
         </p>
         <p className="text-lg md:text-xl text-gray-300 mb-6">
-          I'm studying <b>Economic Informatics</b> in my 3rd year at ASE.
+          I'm a 3rd-year <b>Economic Informatics</b> student at ASE (CSIE) and a passionate developer.
         </p>
         <p className="text-lg md:text-xl text-gray-300 mb-6">
-          I've built this page to showcase some projects I made <b>so far</b>.
+          Currently working as a <b>Software Developer - Cloud Applications & AI</b> at <b>SAP</b>.
         </p>
         <p className="text-lg md:text-xl text-gray-300 mb-6">
-          Currently looking for a software related <b>internship or position</b> to <b>grow my knowledge</b>.
+          My main focus is building scalable <b>cloud-native solutions</b> using <b>Node.js, TypeScript, and SAP CAP</b>, while exploring <b>Generative AI</b> integrations for business processes.
         </p>
         <p className="text-lg md:text-xl text-gray-300 mb-6">
-          Right now <b>I'm working</b> on a chat application built using <b>Java with Spring Boot</b>, which will be hosted here.
-        </p>
-        <p className="text-lg md:text-xl text-gray-300 mb-6">
-          See <b>my projects</b> below.
+          I built this page to showcase my journey and projects. Check them out below!
         </p>
         <div className="mt-8 flex justify-center">
   <svg
